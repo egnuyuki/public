@@ -86,6 +86,16 @@ img {
   border-radius: 5px;
   padding: 18px 32px;
 }
+.arrow-top {
+  width: 40px;
+  height: 100px;
+  background-color: #0bd;
+  clip-path: polygon(0 33%, 50% 33%, 50% 15%, 100% 50%, 50% 85%, 50% 67%, 0 67%);
+  position: fixed;
+  bottom: 1px;
+  right: 30px;
+  transform: rotate(-90deg);
+}
 .button:hover {
   background: #0090aa;
 }
@@ -97,7 +107,7 @@ img {
   background-repeat: no-repeat;
 }
 #home {
-  background-image: url(imges/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
+  background-image: url(/imges/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
   /* background-color: #0bd; */
   background-blend-mode: luminosity;
   min-height: 100vh;
@@ -211,8 +221,9 @@ aside p {
 
 /* =======================================================================MENU =================================================================== */
 #menu {
-  background-image: url(imges/menu-bg.jpg);
-  min-height: 100vh;
+  background-color: #eaf6fd;
+  height: 270px;
+  margin-bottom: 40px;
 }
 .menu-content {
   max-width: 560px;
@@ -224,6 +235,7 @@ aside p {
 .menu-content p {
   font-size: 1.125rem;
   margin: 10px 0 0;
+  text-align: center;
 }
 /* レイアウト */
 .grid {
@@ -246,7 +258,7 @@ aside p {
 /* =======================================================================Contact =================================================================*/
 
 #contact {
-  background-image: url(imges/contact-bg.jpg);
+  background-image: url(/imges/contact-bg.jpg);
   min-height: 100vh;
 }
 
@@ -322,7 +334,7 @@ input[type="submit"] {
 footer {
   background: #432;
   text-align: center;
-  padding: 26px 0;
+  padding: 35px 0;
 }
 footer p {
   color: #fff;
