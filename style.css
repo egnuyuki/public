@@ -107,7 +107,7 @@ img {
   background-repeat: no-repeat;
 }
 #home {
-  background-image: url(/imges/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
+  background-image: url(imges/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
   /* background-color: #0bd; */
   background-blend-mode: luminosity;
   min-height: 100vh;
@@ -258,7 +258,7 @@ aside p {
 /* =======================================================================Contact =================================================================*/
 
 #contact {
-  background-image: url(/imges/contact-bg.jpg);
+  background-image: url(imges/contact-bg.jpg);
   min-height: 100vh;
 }
 
