@@ -349,6 +349,7 @@ footer p {
 
   .page-title {
     font-size: 2.5rem;
+    padding-top: 20%;
   }
 
   .main-nav {
@@ -361,7 +362,7 @@ footer p {
   }
 
   .home-content {
-    margin-top: 20px;
+    margin-top: 20%;
   }
 
   .page-header {
@@ -378,7 +379,7 @@ footer p {
     background-image: url(imges/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
     /* background-color: #0bd; */
     background-blend-mode: luminosity;
-    min-height: 50vh;
+    min-height: 100vh;
   }
   #home .page-title {
     text-transform: none;
