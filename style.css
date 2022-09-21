@@ -102,6 +102,7 @@ img {
 
 /* -------------------------------------------------------------------大きな背景画像---------------------------------------------------------------- */
 .big-bg {
+  margin: 0;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -174,7 +175,7 @@ article p {
   margin-bottom: 1rem;
 }
 .ayako {
-  font-size: 22px; line-height: 1.7; font-weight: bold; text-align: left; font-family: 'Hachi Maru Pop', cursive;
+  font-size: 22px; line-height: 1.7; font-weight: bold; text-align: left; 
 }
 
 /* ------------------------------------------------サイドバー ------------------------------------------------------*/
